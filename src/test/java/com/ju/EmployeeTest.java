@@ -12,6 +12,7 @@ public class EmployeeTest {
 	public void addTest() {
 		Employee emp = new Employee();
 		assertEquals(15, emp.addNumber(10, 5));	
+	
 	}
 
 	@Test
